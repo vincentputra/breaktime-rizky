@@ -1,0 +1,165 @@
+
+/* Start Custom Css */
+
+/* =================================
+HOMEPAGE MOBILE CSS SUPPORT
+==================================*/
+
+body{ 
+	position: relative; 
+	top: 0px; 
+	transition: all .35s; 
+	-webkit-transition: all .35s; 
+	-moz-transition: all .35s; 
+}
+
+body.slide-down{ 
+	top: 220px; 
+}
+
+ul.sitenav li.menu-bars-xs{ 
+	display: none; 
+	width: 40px; 
+	height: 40px; 
+	margin-top: 25px; 
+	float: right; 
+	border: 1px solid #fff; 
+	border-radius: 3px; 
+	text-align: center; 
+}
+
+ul.sitenav>li.menu-bars-xs>a>i.fa{ 
+	font-size: 24px; 
+	margin-left: 0;
+	margin-top: 7px; 
+}
+
+#header #pagenav nav.col-menu-xs{ 
+	display: none; 
+	padding: 30px 0; 
+	top: -220px; 
+	transition: all .35s; 
+	-webkit-transition: all .35s;
+	 -moz-transition: all .35s; 
+} 
+
+#header #pagenav nav.col-menu-xs.slide-down{ 
+	top: 0; 
+}
+
+#header #pagenav nav.col-menu-xs ul.sitenav.sitenav-xs{ 
+	display: none; 
+}
+
+/* =================================
+CULLINARY FOOD
+==================================*/
+
+.top-big-banner-con{
+ 	text-align: center; 
+ 	min-height: 387px;
+ 	width: 100%;
+ 	top: 0;
+ 	z-index: 11;
+ 	color: #fff;
+ 	padding-top: 5%;
+}
+
+.top-big-banner-con h2{
+	font-family: 'georgia';
+}
+
+.top-big-banner-con h2.itc{
+	font-style: italic;
+}
+
+.top-big-banner-con hr.hr-default{
+	width: 25%;
+	border-width: 3px;
+}
+
+.top-big-banner-con hr.hr-blue{
+	border-color: #1eacec;
+}
+
+.mr-auto{
+	margin: 0 auto;
+}
+
+#cullinary-food{
+	padding: 40px 0;
+}
+
+#cullinary-food .desc-bx{
+	padding: 60px 20px;
+	min-height: 370px;
+}
+
+#cullinary-food .desc-bx.blue-bg{
+	background-color: #1eacec;
+}
+
+#cullinary-food .desc-bx.blue-bg h3{
+	text-transform: uppercase;
+}
+
+#cullinary-food .desc-bx.blue-bg h3 a:hover{
+	color: #0fbaf8;
+}
+
+#cullinary-food .desc-bx.blue-bg p.white-color{
+	color: #fff;
+}
+
+#cullinary-food .desc-bx.blue-bg:before{
+	background: url(../images/blue-top-badge.png) no-repeat center center;
+	content: '';
+	position: absolute;
+	z-index: 12;
+	right: -15px;
+	height: 10px;
+	width: 20px;
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+}
+
+#cullinary-food .bx-thumb{
+	margin:0;
+}
+
+#cullinary-food .desc-bx.abs-top{ 
+	top: 0;
+}
+
+#cullinary-slider{
+	position: relative;
+	top: -80px;
+	height: auto;
+}
+
+.slider-box{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0;
+	padding: 50px 0;
+}
+
+/* =================================
+TRAVEL DESTINATION
+==================================*/
+
+.carousel.carousel-big .carousel-caption{
+	width: 33.33%;
+	background-image: none;
+	background-color: #0d0c0c;
+	border-left: 5px solid #1eacec;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel.carousel-big .carousel-caption .caption-wrapper .inner-caption{
+	position: relative;
+}

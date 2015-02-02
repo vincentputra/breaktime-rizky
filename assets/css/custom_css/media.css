@@ -1,0 +1,40 @@
+@media(max-width: 400px){
+
+/* HOMEPAGE */
+
+ul.sitenav{ padding-left: 0; }
+ul.sitenav li{ display: none; }
+ul.sitenav li#logo{ display: block; width: 75%; float: left; margin: 0 10px 0 0; }
+ul.sitenav li#logo img{ width: 100%; }
+ul.sitenav li.menu-bars-xs{ display: block; }
+
+#header #pagenav nav.col-menu-xs{ display: block; position: fixed; width: 100%; left: 0; background: #fff; color: #444; z-index: 999; } 
+#header #pagenav nav.col-menu-xs ul.sitenav.sitenav-xs{ display: block; }
+#header #pagenav nav.col-menu-xs ul.sitenav.sitenav-xs li{ display: block; margin-bottom: 20px; }
+#header #pagenav nav.col-menu-xs ul.sitenav.sitenav-xs li:last-child{ margin-bottom: 0; }
+#header #pagenav nav.col-menu-xs ul.sitenav.sitenav-xs>li>a{ color: #444; }
+#header #pagenav nav.col-menu-xs ul.sitenav.sitenav-xs>li>a>i.round{ border: 1px solid #444 !important; color: #444 !important; float: none !important; display: inline-block !important; }
+
+#header #slider-header{ height: 350px; }
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{ max-width: 468%; }
+
+.bx-thumb .desc-bx{ bottom: 0; position: relative; border: #eee solid; border-width: 0 1px 1px; width: 100% !important; padding-bottom: 20px; }
+.carousel.bx-carousel-horiz2 .head-title{ position: relative; top: 0; left: 0; padding: 20px; background: #1eacec; }
+.carousel.bx-carousel-horiz2 .carousel-caption{ width: 100%; padding-left: 20px; }
+.bott-bx.half-right{ width: 100%; margin-left: 0; padding-left: 20px; }
+#slider-healthy{ margin-bottom: 30px; }
+
+.head-title h1{ font-size: 28px; }
+
+#social-fecth-bx #social-feed{ margin-top: -30px; }
+#social-fecth-bx #social-feed h3{ margin: 10px 0 0; }
+#social-fecth-bx #question-bx{ padding-bottom: 40px; }
+
+#latest-chanel .no-padd-left{ padding-left: 15px; }
+#latest-chanel .no-padd-right{ padding-right: 15px; }
+
+#footer form#subscribe .bx-field{ padding-bottom: 0; }
+#footer form#subscribe .bx-field input.subscribe-field{ width: 100%; padding-bottom: 10px; border-bottom: 5px #000 solid; }
+#footer form#subscribe .bx-field input.subscribe-btn{ width: 100%; border: 0; background: #eee; padding-top: 10px; padding-bottom: 5px; height: auto; }
+
+}
